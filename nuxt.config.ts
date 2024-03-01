@@ -24,8 +24,10 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/css/tailwind.css', '~/assets/css/main.css'],
 
+	evtools: { enabled: true },
 	modules: [
 		'@nuxt/devtools', // https://devtools.nuxtjs.org/
+		"nuxt-directus",
 		'@nuxt/image',
 		'@nuxt/ui',
 		'@nuxtjs/color-mode',
