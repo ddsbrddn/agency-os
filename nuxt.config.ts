@@ -26,7 +26,6 @@ export default defineNuxtConfig({
 
 	modules: [
 		'@nuxt/devtools', // https://devtools.nuxtjs.org/
-		'nuxt-directus',
 		'@nuxt/image',
 		'@nuxt/ui',
 		'@nuxtjs/color-mode',
