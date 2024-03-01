@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/css/tailwind.css', '~/assets/css/main.css'],
 
-	evtools: { enabled: true },
+	devtools: { enabled: true },
 	modules: [
 		'@nuxt/devtools', // https://devtools.nuxtjs.org/
 		"nuxt-directus",
