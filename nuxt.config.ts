@@ -4,6 +4,10 @@ import { theme } from './theme';
 export default defineNuxtConfig({
 	// https://nuxt.com/docs/api/configuration/nuxt-config
 
+	//experimental: {
+	//	watcher: "chokidar"
+	//},
+
 	routeRules: {
 		// '/**': {
 		// 	prerender: true,
